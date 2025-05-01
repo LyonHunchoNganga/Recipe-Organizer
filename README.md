@@ -1,72 +1,49 @@
-# Recipe Organizer
+🍲 Recipe Organizer
+A responsive web app to save, view, and manage your favorite recipes — April 2025
+By Lyon Nganga
+📖 Description
+Recipe Organizer is a lightweight and user-friendly application that helps you keep track of your favorite recipes in one centralized place. Whether you're browsing on your phone in the kitchen or planning meals on your desktop, this responsive app adapts to all screen sizes. Users can add, edit, delete, and browse recipes with ease — making meal planning more organized and enjoyable.
 
-Recipe Organizer is a simple and efficient tool to manage, organize, and share your favorite recipes. This project helps you keep all your recipes in one place, making it easy to access and use.
+🛠️ Setup/Installation Instructions
+Clone the Repository
 
-## Features
+bash
+Copy
+Edit
+git clone https://github.com/LyonHunchoNganga/recipe-organizer.git
+Navigate to the Project Folder
 
-- Add, edit, and delete recipes.
-- Categorize recipes by type (e.g., breakfast, lunch, dinner, dessert).
-- Search and filter recipes by ingredients or keywords.
-- Export and share recipes with others.
-- User-friendly interface for easy navigation.
+bash
+Copy
+Edit
+cd recipe-organizer
+Open the app
 
-## Installation
+Open index.html in your browser.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/LyonHunchoNganga/recipe-organizer.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd recipe-organizer
-    ```
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
+No server or frameworks needed — this project runs on pure HTML, CSS, and JavaScript.
 
-## Usage
+✅ Behavior-Driven Development (BDD)
+Behavior	Input	Output
+User adds a recipe	Recipe title, ingredients, and steps	Recipe is added to the list
+User deletes a recipe	Click "delete" on a recipe	The recipe is removed
+User views a recipe	Click on a recipe title	Recipe details are displayed
+Site is responsive	Open on phone/tablet/desktop	Layout adjusts to screen
 
-1. Start the application:
-    ```bash
-    npm start
-    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+⚙️ Technologies Used
+HTML5 – Markup structure
 
-## Technologies Used
+CSS3 – Styling and responsive layout
 
-- **Frontend**: React, CSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
+JavaScript (ES6) – Functionality and interactivity
 
-## Contributing
+Media Queries – Responsive design for mobile, tablet, and desktop
 
-Contributions are welcome! Please follow these steps:
+📫 Support and Contact
+Feel free to reach out with feedback, suggestions, or bug reports:
 
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m "Add feature-name"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request.
+Email: lyonnganga1@gmail.com
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any questions or feedback, feel free to reach out:
-
-- **Email**:lyonnganga1@gmail.com
-- **GitHub**: [LyonHunchoNganga](https://github.com/LyonHunchoNganga)
-
-Happy cooking!
+📄 License
+This project is licensed under the MIT License
+© 2025 Lyon Nganga
