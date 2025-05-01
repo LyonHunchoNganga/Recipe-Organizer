@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
       let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
       recipes.splice(index, 1);  // Remove the recipe by index
       localStorage.setItem("recipes", JSON.stringify(recipes)); // Save updated list
-      displayRecipes();  // Re-display recipes after deletion
+      displayRecipes();  
     }
   
-    // Display recipes on page load
+  
     displayRecipes();
   
     // Handle form submission for adding a new recipe
