@@ -1,4 +1,4 @@
-// Wait until the DOM is fully loaded
+
 document.addEventListener("DOMContentLoaded", function () {
 
     // Function to display all saved recipes
