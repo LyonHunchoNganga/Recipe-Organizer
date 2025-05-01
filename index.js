@@ -50,9 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector("form");
     if (form) {
       form.addEventListener("submit", function (event) {
-        event.preventDefault(); // Stop page reload on form submit
-  
-        // Get values from the form
+        event.preventDefault(); 
         const title = document.getElementById("title").value.trim();
         const category = document.getElementById("category").value;
         const ingredients = document.getElementById("ingredients").value.trim();
