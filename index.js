@@ -12,8 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (recipes.length === 0) {
         recipesContainer.innerHTML = '<p>No recipes found. Start adding some!</p>';
       }
-  
-      // Loop through recipes and display each
+
       recipes.forEach((recipe, index) => {
         const recipeDiv = document.createElement("div");
         recipeDiv.classList.add("recipe");
