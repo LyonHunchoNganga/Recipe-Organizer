@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
           <button class="delete-recipe" data-index="${index}">Delete Recipe</button>
         `;
         
-        // Append recipe to the container
         recipesContainer.appendChild(recipeDiv);
       });
   
