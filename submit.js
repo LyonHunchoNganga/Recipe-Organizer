@@ -1,11 +1,9 @@
-// Wait for the document to load before running JavaScript
+
 document.addEventListener("DOMContentLoaded", function () {
-    // Get the form element from the HTML
     const form = document.querySelector("form");
   
-    // Add event listener for form submission
     form.addEventListener("submit", function (event) {
-      event.preventDefault(); // Prevent form from submitting the default way (page reload)
+      event.preventDefault(); 
   
       // Get values from the form fields
       const title = document.getElementById("title").value.trim();
