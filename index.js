@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function deleteRecipe(index) {
       let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
-      recipes.splice(index, 1);  // Remove the recipe by index
-      localStorage.setItem("recipes", JSON.stringify(recipes)); // Save updated list
+      recipes.splice(index, 1);  
+      localStorage.setItem("recipes", JSON.stringify(recipes)); 
       displayRecipes();  
     }
   
