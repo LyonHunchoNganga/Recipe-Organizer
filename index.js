@@ -35,8 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       });
     }
-  
-    // Function to delete a recipe from localStorage
+
     function deleteRecipe(index) {
       let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
       recipes.splice(index, 1);  // Remove the recipe by index
