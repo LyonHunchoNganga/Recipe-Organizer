@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
           createdAt: new Date().toISOString()
         };
   
-        // Get existing recipes from localStorage or start with empty array
+      
         let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
   
         // Add new recipe to the array
