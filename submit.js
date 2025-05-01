@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (event) {
       event.preventDefault(); 
   
-      // Get values from the form fields
       const title = document.getElementById("title").value.trim();
       const category = document.getElementById("category").value;
       const ingredients = document.getElementById("ingredients").value.trim();
@@ -14,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
       if (!title || !category || !ingredients || !instructions) {
         alert("Please fill in all fields before submitting your recipe.");
-        return; // Exit the function if fields are empty
+        return;
       }
   
       // Create a new recipe object
