@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
   
       recipes.push(newRecipe);
   
-      // Save the updated recipes array back to localStorage
       localStorage.setItem("recipes", JSON.stringify(recipes));
   
       // Display success message
