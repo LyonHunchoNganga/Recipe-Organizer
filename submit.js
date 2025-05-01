@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
   
-      // Create a new recipe object
+    
       const newRecipe = {
         title,
         category,
