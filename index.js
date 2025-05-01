@@ -1,12 +1,12 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    // Function to display all saved recipes
+    
     function displayRecipes() {
       const recipesContainer = document.getElementById("recipes-container");
       let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
       
-      // Clear existing content
+    
       recipesContainer.innerHTML = '';
   
       if (recipes.length === 0) {
