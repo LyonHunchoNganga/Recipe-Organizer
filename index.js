@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
         let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
   
-        // Add new recipe to the array
+    
         recipes.push(recipe);
   
         // Save updated recipes to localStorage
