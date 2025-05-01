@@ -32,10 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
   
       localStorage.setItem("recipes", JSON.stringify(recipes));
   
-      // Display success message
       alert("✅ Your recipe has been successfully added!");
   
-      // Reset the form to clear the fields
+  
       form.reset();
     });
   });
