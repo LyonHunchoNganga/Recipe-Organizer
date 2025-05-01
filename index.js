@@ -27,8 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         recipesContainer.appendChild(recipeDiv);
       });
-  
-      // Add event listener for delete buttons
+
       document.querySelectorAll(".delete-recipe").forEach(button => {
         button.addEventListener("click", function () {
           const index = button.getAttribute("data-index");
