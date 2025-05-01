@@ -76,7 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
     
         recipes.push(recipe);
   
-        // Save updated recipes to localStorage
         localStorage.setItem("recipes", JSON.stringify(recipes));
   
         // Notify user of successful submission
