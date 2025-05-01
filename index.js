@@ -56,13 +56,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const ingredients = document.getElementById("ingredients").value.trim();
         const instructions = document.getElementById("instructions").value.trim();
   
-        // Validate form fields
         if (!title || !category || !ingredients || !instructions) {
           alert("Please fill in all fields before submitting.");
           return;
         }
   
-        // Create new recipe object
+        
         const recipe = {
           title,
           category,
