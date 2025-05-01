@@ -46,8 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         displayRecipes();  // Re-render the recipes
       }
     }
-  
-    // Display the recipes when the page is loaded
+
     displayRecipes();
   });
   
