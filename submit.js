@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
       
       
-     // Function to display recipes from localStorage
      function displayRecipes() {
         const recipeList = document.getElementById("recipe-list");
         recipeList.innerHTML = ""; // Clear existing list
