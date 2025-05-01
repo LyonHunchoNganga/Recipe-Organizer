@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         category,
         ingredients,
         instructions,
-        createdAt: new Date().toISOString(), // Store the creation date
+        createdAt: new Date().toISOString(),
       };
   
       // Get existing recipes from localStorage or initialize as an empty array
