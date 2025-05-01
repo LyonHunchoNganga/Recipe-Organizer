@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     displayRecipes();
   
-    // Handle form submission for adding a new recipe
+  
     const form = document.querySelector("form");
     if (form) {
       form.addEventListener("submit", function (event) {
